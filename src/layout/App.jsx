@@ -1,10 +1,15 @@
-// import { Button } from "@nextui-org/react";
+import { Outlet } from "react-router-dom";
+import NavigationBar from "../components/ui/Navbar"
+import Footer from "../components/ui/Footer"
 
-
-const App=()=> {
-  return (
-<div>tish </div>
-    );
+const App = () => {
+    return ( 
+        <>
+            <NavigationBar />
+            <Outlet/>
+            <Footer/>
+        </>
+     );
 }
-
+ 
 export default App;
