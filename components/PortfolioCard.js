@@ -1,6 +1,6 @@
-const PortfolioCard = () => {
+const PortfolioCard = ({small}) => {
     return ( 
-        <div className="h-[30vh]
+        <div className={`${small ? 'h-[30vh]' : 'h-[100vh]'}
          w-full
         max-h-[32rem]
     
@@ -22,11 +22,11 @@ const PortfolioCard = () => {
         before:from-white
         before:to-gray-900
         before:opacity-30
-        before:z-[-5] rounded-2xl"
+        before:z-[-5] rounded-2xl`}
         >
             <div className="text-center text-white space-y-5 absolute bottom-8">
-            <h4 className="font-bold text-6xl">Kiddos</h4>
-            <h5 className="text-4xl text-center font-semibold px-11 -tracking-wider leading-[1.2]">Revolutionizing retail with a modernized point of sale customer experience.</h5>
+            <h4 className={`font-bold ${small ? 'text-4xl' : "text-6xl"}`}>Kiddos</h4>
+            <h5 className={` text-center font-semibold mx-auto px-11 -tracking-wider leading-[1.2] ${small ? 'text-2xl' : "w-3/4 text-4xl"}`}>Revolutionizing retail with a modernized point of sale customer experience.</h5>
             </div>
         </div>
      );

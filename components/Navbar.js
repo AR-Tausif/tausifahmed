@@ -12,17 +12,17 @@ export default function NavigationBar() {
       </NavbarBrand>
       <NavbarContent  className="hidden sm:flex gap-10 uppercase" justify="center">
         <NavbarItem isActive>
-          <Link className="" href="#" aria-current="page">
+          <Link className="" href="/" aria-current="page">
             About
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link className="" color="foreground" href="#">
+          <Link className="" color="foreground" href="/works">
             Portfolio
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link className="" color="foreground" href="#">
+          <Link className="" color="foreground">
             Let's Connect
           </Link>
         </NavbarItem>

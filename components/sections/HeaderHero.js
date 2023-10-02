@@ -32,12 +32,13 @@ export default function HeaderHero() {
        </h5>
       </div>
       <div className="my-32">
-        <Image 
+        {/* <Image 
         width={500}
         height={100}
-        src="/my-picture.jpg"
+        src="https://framerusercontent.com/images/NJSwXyDlaUZn0O49iCxLH4yY.png?scale-down-to=1024"
         alt="Tausif's picture"
-        className="rounded-2xl"/>
+        className="rounded-2xl"/> */}
+        <img className='w-[50vh] h-[70vh] rounded-xl' src='https://framerusercontent.com/images/NJSwXyDlaUZn0O49iCxLH4yY.png?scale-down-to=1024' alt='highlited picture' />
       </div>
     </div>
   )
