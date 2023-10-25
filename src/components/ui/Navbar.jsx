@@ -16,14 +16,12 @@ export default function NavigationBar() {
           </NavLink>
         </NavbarItem>
         <NavbarItem isActive>
-          <NavLink className="" color="foreground" to="/works">
+          <NavLink className="" color="foreground" to="/portfolio">
             Portfolio
           </NavLink>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link className="" color="foreground">
             Let's Connect
-          </Link>
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">

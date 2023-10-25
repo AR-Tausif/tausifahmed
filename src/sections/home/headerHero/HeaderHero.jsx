@@ -9,7 +9,8 @@ export default function HeaderHero() {
       </div>
       <div className="my-32">
         <img
-        src="/my-picture.jpg"
+        src="/my-picture.jpeg"
+        width={500}
         alt="Tausif's picture"
         className="rounded-2xl"/>
       </div>
