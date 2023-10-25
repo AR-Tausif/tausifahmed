@@ -13,7 +13,7 @@ const ProjectFeatured = () => {
             <PortfolioCard small={true}/>
             </div>
             <div className="text-center mt-14">
-                <button className="border px-7 py-2 rounded-md border-purple-800 bg-transparent shadow-sm text-purple-900 text-md font-semibold hover:bg-purple-800 hover:text-white">Show More</button>
+                <button className="border px-7 py-2 rounded-md border-purple-800 bg-transparent shadow-sm text-purple-900 text-md font-semibold hover:bg-purple-800 hover:text-white transition">Show More</button>
             </div>
         </div>
      );
