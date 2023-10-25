@@ -1,4 +1,5 @@
-const PortfolioCard = ({small}) => {
+const PortfolioCard = ({small, work}) => {
+    const {name, title, thumbImg} = work;
     return ( 
         <div className={`${small ? 'h-[30vh]' : 'h-[100vh]'}
          w-full
@@ -25,8 +26,8 @@ const PortfolioCard = ({small}) => {
         before:z-[-5] rounded-2xl`}
         >
             <div className="text-center text-white space-y-5 absolute bottom-8">
-            <h4 className={`font-bold ${small ? 'text-4xl' : "text-6xl"}`}>Kiddos</h4>
-            <h5 className={` text-center font-semibold mx-auto px-11 -tracking-wider leading-[1.2] ${small ? 'text-2xl' : "w-3/4 text-4xl"}`}>Revolutionizing retail with a modernized point of sale customer experience.</h5>
+            <h4 className={`font-bold ${small ? 'text-4xl' : "text-6xl"}`}>{name}</h4>
+            <h5 className={` text-center font-semibold mx-auto px-11 -tracking-wider leading-[1.2] ${small ? 'text-2xl' : "w-3/4 text-4xl"}`}>{title}</h5>
             </div>
         </div>
      );
