@@ -3,6 +3,7 @@ import App from "../layout/App";
 import Home from "../layout/pages/home/Home";
 import Works from "../layout/pages/works/Works";
 import PortfolioDetails from "../layout/pages/portfolioDetails/PortfolioDetails";
+import DataCreate from "../layout/pages/dataCreate/DataCreate";
 
 const router = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
             {
                 path: "/portfolio-details",
                 element: <PortfolioDetails/>
+            },
+            {
+                path: "/create",
+                element: <DataCreate/>
             },
         ]
     }
