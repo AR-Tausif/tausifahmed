@@ -1,11 +1,11 @@
 
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
 import { NavLink } from "react-router-dom";
-
+import CopySvg from "./CopySvg"
 
 export default function NavigationBar() {
   return (
-    <Navbar className="bg-transparent py-4" maxWidth="xl">
+    <Navbar className="bg-transparent py-0" maxWidth="xl">
       <NavbarBrand justify="start">
         <p className="text-inherit -tracking-wide font-semibold text-xl">TAUSIF AHMED</p>
       </NavbarBrand>
@@ -28,6 +28,9 @@ export default function NavigationBar() {
         <NavbarItem className="hidden uppercase font-semibold lg:flex">
         <Button as={Link} className="bg-white rounded-full shadow-purple-500 text-lg text-black lowercase" href="#" variant="flat">
             tausif.ritu1@gmail.com
+            <div className="p-2 bg-gray-100 hover:bg-gray-300 rounded-full">
+            <CopySvg/>
+            </div>
           </Button>
         </NavbarItem>
         <NavbarItem>

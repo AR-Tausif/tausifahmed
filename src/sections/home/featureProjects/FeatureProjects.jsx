@@ -6,7 +6,7 @@ const ProjectFeatured = () => {
         <div className="pb-24">
             <h3 className='text-5xl font-bold tracking-tighter'>My Featured <br/> works</h3>
 
-            <div className="grid grid-cols-2 gap-12 mt-20 ">
+            <div className="grid grid-cols-2 gap-4 mt-20 ">
             <PortfolioCard small={true}/> 
             <PortfolioCard small={true}/>
             <PortfolioCard small={true}/>

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import PortfolioCard from "../../../components/ui/ProjectCard";
+import Work from "../../../components/Work";
 
 const Works = () => {
   const [works, setWorks] = useState([]);
@@ -13,12 +14,11 @@ const Works = () => {
   },[])
 
     return ( 
-        <section className="max-w-screen-xl mx-auto text-center py-20">
-        <h3 className="text-[4rem] uppercase font-semibold py-24">Selected Works</h3>
-        <div className="flex flex-col space-y-20">
-        {
-          works.map((work, index)=><PortfolioCard key={index} work={works} /> )
-        }
+        <section className="max-w-screen-xl mx-auto py-16">
+        <h3 className="text-[4rem] uppercase font-semibold pb-11 text-center">Selected Works</h3>
+        <div className="space-y-20">
+          <Work /> 
+          <Work /> 
         </div>
       </section>
      );

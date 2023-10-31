@@ -1,5 +1,7 @@
 
+
 export default function HeaderHero() {
+  
   return (
     <div className="flex min-h-screen flex-col items-center justify-between p-32">
       <div>
@@ -8,19 +10,19 @@ export default function HeaderHero() {
       <p>WEBSITE</p> <p className='-tracking-widest'>DEVELOPER©</p></h3>
       </div>
       <div className="my-32">
-        <img
-        src="/my-picture.jpeg"
-        width={500}
-        alt="Tausif's picture"
-        className="rounded-2xl"/>
-      </div>
-      <div className='mx-auto py-20'>
+          <img
+          src="/my-picture.jpeg"
+          width={500}
+          alt="Tausif's picture"
+          className="rounded-2xl"/>
+        </div>
+      {/* <div className='mx-auto py-20'>
         <h5 className='mx-auto text-6xl text-center font-semibold -tracking-wider leading-[1.2]'>
           I enjoy creating exciting experiences and <br/> 
           finding solutions to challenging issues for <br/> 
           individuals <span className="text-purple-800"> -like you.</span>
        </h5>
-      </div>
+      </div> */}
       <div className='mx-auto py-32'>
         <h5 className='mx-auto text-6xl text-center font-semibold -tracking-wider leading-[1.2]'>
           I enjoy creating exciting experiences and <br/> 
